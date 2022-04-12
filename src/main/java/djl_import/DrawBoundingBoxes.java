@@ -50,8 +50,11 @@ public class DrawBoundingBoxes {
 
 			Imgproc.putText(matrix, textToAdd, new Point(x1, y1-5), 4, 0.6, new Scalar(0, 0, 255), 1);
 		}	
-		
-		HighGui.imshow("", matrix);
+		         
+//		Imgcodecs.imwrite("../djl_import/res.jpg", matrix); // to save an image
+
+		// display Image
+		HighGui.imshow("Result", matrix);
 		// Waiting for a key event to delay
 		HighGui.waitKey();
 
