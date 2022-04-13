@@ -1,7 +1,7 @@
-# Car Dents Detection using YOLO v5
+# Custom Object Detection using YOLO v5
 - This repository contains Car dents detection project which is built using concepts of Convolutional Neural Networks.
-- It takes an image of size 640 * 640px as an input and detect dents from it.
-- Use this repo and start working without spending hours on training the model.
+- It takes an image of size 640 * 640px as an input and detect dents present in it.
+- Use this repository and start working without spending time on training the DL model for car dent detection.
 
 
 ## Built with
@@ -20,6 +20,7 @@ Clone this repo
 ```
 
 ## Wiki
+Refer this Wiki documents for the procedure of custom object detection using YOLO v5
 - [Introduction](https://github.com/NeoSOFT-Technologies/Java-NeuralNetwork-POC/wiki)
 - [Create a labelled Dataset for training](https://github.com/NeoSOFT-Technologies/Java-NeuralNetwork-POC/wiki/Creating-a-labelled-Dataset-for-project)
 - [Train YOLO v5 model on Google Collab](https://github.com/NeoSOFT-Technologies/Java-NeuralNetwork-POC/wiki/Training-YOLO-v5-model-on-Google-Collab)
